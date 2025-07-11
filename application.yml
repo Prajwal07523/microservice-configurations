@@ -1,1 +1,7 @@
-
+reka: 
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    server-url:
+      defaultZone:http://localhost:8761/eureka
